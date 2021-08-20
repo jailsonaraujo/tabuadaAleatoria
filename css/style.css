@@ -10,7 +10,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("./img/bg.webp");
+    background-image: url("../img/bg.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
