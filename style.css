@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("./img/bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* FORMATAÇÂO DO PAINEL */
+#painel{
+    width: 45%;
+    height: auto;
+    border: 3px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #c9c6c4;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #000;
+}
+label{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+#container{
+width: 40%;
+height: auto;
+border: 3px solid;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 2rem;
+background-color: #c9c6c4;
+border-radius: 15px;
+box-shadow: 0px 0px 10px #000;
+position: relative;
+}
+#dv1{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 8rem;
+height: 9rem;
+background-color: #0f0;
+font-size: 6rem;
+border: 10px solid #747272;
+border-radius: 8px;
+box-shadow: 1px 1px 1rem #000;
+font-family: Arial, Helvetica, sans-serif;
+color: #424141;
+font-weight: 900;
+text-shadow: 1px 1px 8px #000;
+}
+.novo{
+animation: rodar 4s;
+}
+
+#dv2{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 8rem;
+height: 9rem;
+background-color: #0f0;
+font-size: 6rem;
+border: 10px solid #747272;
+border-radius: 8px;
+box-shadow: 1px 1px 1rem #000;
+font-family: Arial, Helvetica, sans-serif;
+color: #424141;
+font-weight: 900;
+text-shadow: 1px 1px 8px #000;
+}
+.novo2{
+animation: rodar 6s;
+}
+
+#sinalMult{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 6rem;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424141;
+    font-weight: 900;
+    text-shadow: 1px 1px 8px #000;
+}
+@keyframes rodar {
+    0%{
+        transform: rotateX(3600deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    }
+}
+
+/* PAINEL DAS RESPOSTAS */
+#res{
+    width: 40%;
+    height: 2.5rem;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 900;
+    padding: 1.5rem;
+    outline: none;
+    border: solid #747272 4px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1rem #000;
+    background-color: #306d6d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #363636;;
+}
+
+/* BOTOES */
+
+#verificar{
+    width: 20%;
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    background-color: #00f ;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#rodar{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #0f0;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #f00;
+}
