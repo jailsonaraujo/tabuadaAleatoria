@@ -4,7 +4,7 @@ Projeto simples para colocar em pratica conteudos aprendidos ate agora HTML, CSS
 
 ## <h1>Image de Amostra</h1>
 
-<img src="css/imgAmostra.png">
+<div><img src="css/imgAmostra.png"></div>
 
 # <h1>Link de Acesso</h1>
 <label>Linke de visualização -->></label> <a href="https://jailsonaraujo.github.io/tabuadaAleatoria/">Click Aqui</a>
