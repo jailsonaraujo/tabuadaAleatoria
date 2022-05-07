@@ -1,0 +1,31 @@
+@media (max-width: 412px){
+  #painel{
+    width: 90%;
+    padding: 10px 10px;
+  }
+  label{
+    font-size: 1rem;
+  }
+
+  #container{
+    width: 90%;
+    gap: 5px;
+    padding: 10px 10px;
+  }
+  #dv1, #dv2{
+    width: 5.5rem;
+    height: 6.5rem;
+    font-size: 3.6em;
+  }
+  #res{
+    height: 30px;
+    padding: .5rem;
+    font-size: 2em;
+    border-radius: 6%;
+  }
+  #verificar{
+    height: 40px;
+    border-radius: 6%;
+    border: none;
+  }
+}

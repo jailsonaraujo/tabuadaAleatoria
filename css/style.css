@@ -5,7 +5,7 @@ body{
 
 section{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,8 @@ section{
     border: 3px solid;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
     padding: 1rem;
     background-color: #c9c6c4;
     border-radius: 15px;
@@ -40,13 +41,15 @@ label{
 
 
 #container{
-width: 40%;
+width: 50%;
 height: auto;
 border: 3px solid;
 display: flex;
+gap: 30px;
 align-items: center;
-justify-content: space-evenly;
-padding: 2rem;
+justify-content: center;
+flex-wrap: wrap;
+padding: 30px 10px;
 background-color: #c9c6c4;
 border-radius: 15px;
 box-shadow: 0px 0px 10px #000;
@@ -60,8 +63,8 @@ width: 8rem;
 height: 9rem;
 background-color: #0f0;
 font-size: 6rem;
-border: 10px solid #747272;
-border-radius: 8px;
+border: 5px solid #747272;
+border-radius: 3px;
 box-shadow: 1px 1px 1rem #000;
 font-family: Arial, Helvetica, sans-serif;
 color: #424141;
@@ -80,8 +83,8 @@ width: 8rem;
 height: 9rem;
 background-color: #0f0;
 font-size: 6rem;
-border: 10px solid #747272;
-border-radius: 8px;
+border: 5px solid #747272;
+border-radius: 3px;
 box-shadow: 1px 1px 1rem #000;
 font-family: Arial, Helvetica, sans-serif;
 color: #424141;
@@ -133,13 +136,14 @@ animation: rodar 6s;
 /* BOTOES */
 
 #verificar{
-    width: 20%;
+
     height: 3rem;
     font-size: 1.3rem;
     font-weight: 900;
     background-color: #00f ;
     border-radius: 15px;
     cursor: pointer;
+    padding: 0px 10px;
 }
 #rodar{
     width: 5rem;
